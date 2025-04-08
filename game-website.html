@@ -3,399 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuts and Bolts Puzzle - 4399onlineflashgames - Play Free Online Games</title>
-    <meta name="description" content="Play Nuts and Bolts Puzzle for free on 4399onlineflashgames.com. Solve challenging puzzles and have fun with this addictive brain game!">
-    <link rel="canonical" href="https://4399onlineflashgames.com/games/nuts-and-bolts-puzzle.html">
-    <meta name="keywords" content="4399onlineflashgames, online games, free games, puzzle games, nuts and bolts puzzle, brain games">
-    <meta property="og:title" content="Nuts and Bolts Puzzle - 4399onlineflashgames">
-    <meta property="og:description" content="Play Nuts and Bolts Puzzle for free. Test your problem-solving skills with this fun and challenging puzzle game!">
-    <meta property="og:url" content="https://4399onlineflashgames.com/games/nuts-and-bolts-puzzle.html">
+    <title>4399在线游戏 - 多种好玩的免费HTML5游戏</title>
+    <meta name="description" content="4399在线游戏提供各种免费的HTML5游戏，包括动作游戏、益智游戏、射击游戏、飞行游戏等多种类型。">
+    <link rel="canonical" href="https://4399onlineflashgames.com">
+    <meta name="keywords" content="4399在线游戏, 免费游戏, HTML5游戏, 动作游戏, 益智游戏, 射击游戏">
+    <meta property="og:title" content="4399在线游戏 - 免费玩多种HTML5游戏">
+    <meta property="og:description" content="4399在线游戏提供各种免费的HTML5游戏，包括动作游戏、益智游戏、射击游戏、飞行游戏等多种类型。">
+    <meta property="og:url" content="https://4399onlineflashgames.com">
     <meta property="og:type" content="website">
-    <style>
-        /* Reset and base styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f5f5f7; /* Apple-style light background */
-        }
-        
-        /* Container */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        /* Header */
-        header {
-            background-color: #000; /* Apple-style dark header */
-            color: #fff;
-            padding: 20px 0;
-        }
-        
-        .header-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #fff;
-            text-decoration: none;
-        }
-        
-        /* Navigation */
-        nav ul {
-            display: flex;
-            list-style: none;
-        }
-        
-        nav ul li {
-            margin-left: 20px;
-        }
-        
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        
-        nav ul li a:hover {
-            color: #0071e3; /* Apple blue */
-        }
-        
-        /* Main content */
-        main {
-            padding: 40px 0;
-        }
-        
-        .game-section {
-            background-color: #fff;
-            border-radius: 18px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 30px;
-            margin-bottom: 40px;
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            color: #1d1d1f; /* Apple dark text */
-        }
-        
-        .game-intro {
-            font-size: 1.2rem;
-            color: #515154; /* Apple secondary text */
-            margin-bottom: 30px;
-        }
-        
-        .game-container {
-            position: relative;
-            width: 100%;
-            overflow: hidden;
-            padding-top: 56.25%; /* 16:9 aspect ratio */
-            margin-bottom: 30px;
-        }
-        
-        .game-frame {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-        
-        h2 {
-            font-size: 1.8rem;
-            margin: 30px 0 15px;
-            color: #1d1d1f; /* Apple dark text */
-        }
-        
-        .game-description p {
-            margin-bottom: 15px;
-            color: #515154; /* Apple secondary text */
-        }
-        
-        .game-features {
-            margin: 20px 0;
-        }
-        
-        .game-features ul {
-            list-style-type: none;
-            padding-left: 20px;
-        }
-        
-        .game-features ul li {
-            position: relative;
-            padding-left: 25px;
-            margin-bottom: 10px;
-        }
-        
-        .game-features ul li:before {
-            content: "•";
-            color: #0071e3; /* Apple blue */
-            font-size: 1.5rem;
-            position: absolute;
-            left: 0;
-        }
-        
-        .cta-button {
-            display: inline-block;
-            background-color: #0071e3; /* Apple blue */
-            color: #fff;
-            padding: 12px 24px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: 600;
-            margin-top: 20px;
-            transition: background-color 0.3s;
-        }
-        
-        .cta-button:hover {
-            background-color: #0077ED; /* Slightly lighter blue on hover */
-        }
-        
-        /* Related games section */
-        .related-games {
-            margin-top: 40px;
-        }
-        
-        .games-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-        
-        .game-card {
-            background-color: #fff;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        
-        .game-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-        
-        .game-card img {
-            width: 100%;
-            height: 150px;
-            object-fit: cover;
-        }
-        
-        .game-card-content {
-            padding: 15px;
-        }
-        
-        .game-card h3 {
-            font-size: 1.2rem;
-            margin-bottom: 8px;
-        }
-        
-        .game-card p {
-            font-size: 0.9rem;
-            color: #515154;
-        }
-        
-        /* Footer */
-        footer {
-            background-color: #f5f5f7;
-            padding: 40px 0;
-            border-top: 1px solid #d2d2d7;
-        }
-        
-        .footer-content {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-        
-        .footer-column {
-            flex: 1;
-            min-width: 200px;
-            margin-bottom: 20px;
-        }
-        
-        .footer-column h3 {
-            font-size: 1.2rem;
-            margin-bottom: 15px;
-            color: #1d1d1f;
-        }
-        
-        .footer-column ul {
-            list-style: none;
-        }
-        
-        .footer-column ul li {
-            margin-bottom: 8px;
-        }
-        
-        .footer-column ul li a {
-            color: #515154;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        
-        .footer-column ul li a:hover {
-            color: #0071e3;
-        }
-        
-        .copyright {
-            margin-top: 30px;
-            padding-top: 20px;
-            border-top: 1px solid #d2d2d7;
-            text-align: center;
-            color: #86868b;
-            font-size: 0.9rem;
-        }
-        
-        /* Responsive design */
-        @media (max-width: 768px) {
-            .header-content {
-                flex-direction: column;
-                text-align: center;
-            }
-            
-            nav ul {
-                margin-top: 15px;
-                justify-content: center;
-            }
-            
-            nav ul li {
-                margin: 0 10px;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .game-intro {
-                font-size: 1.1rem;
-            }
-            
-            .footer-content {
-                flex-direction: column;
-            }
-            
-            .footer-column {
-                margin-bottom: 30px;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 1.8rem;
-            }
-            
-            .game-section {
-                padding: 20px;
-            }
-            
-            .game-container {
-                padding-top: 75%; /* Adjust aspect ratio for mobile */
-            }
-            
-            .cta-button {
-                display: block;
-                text-align: center;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="header-content">
-                <a href="/" class="logo">4399onlineflashgames</a>
+                <a href="/" class="logo">4399在线游戏</a>
                 <nav>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/categories">Categories</a></li>
-                        <li><a href="/new">New Games</a></li>
-                        <li><a href="/popular">Popular</a></li>
+                        <li><a href="game-website.html">首页</a></li>
+                        <li class="dropdown">
+                            <a href="categories/">游戏分类</a>
+                            <div class="dropdown-content">
+                                <a href="categories/action.html">动作游戏</a>
+                                <a href="categories/puzzle.html">益智游戏</a>
+                                <a href="categories/flying.html">飞行游戏</a>
+                                <a href="categories/shooting.html">射击游戏</a>
+                                <a href="categories/driving.html">赛车游戏</a>
+                                <a href="categories/sports.html">体育游戏</a>
+                                <a href="categories/arcade.html">街机游戏</a>
+                            </div>
+                        </li>
+                        <li><a href="new.html">最新游戏</a></li>
+                        <li><a href="popular.html">热门游戏</a></li>
+                        <li><a href="favorites.html">我的收藏</a></li>
                     </ul>
                 </nav>
+                <div class="search-container">
+                    <div class="search-bar">
+                        <input type="text" placeholder="搜索游戏...">
+                        <button type="submit"><span class="search-icon"></span></button>
+                    </div>
+                </div>
+                <div class="user-menu">
+                    <button class="user-button">
+                        <span class="user-icon">U</span>
+                    </button>
+                    <div class="user-dropdown">
+                        <a href="profile.html">我的账户</a>
+                        <a href="favorites.html">我的收藏</a>
+                        <a href="played.html">最近玩过</a>
+                        <a href="settings.html">设置</a>
+                        <a href="logout.html">退出登录</a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
     
     <main class="container">
+        <!-- Featured Games Slider (For Home Page) -->
+        <section class="featured-slider">
+            <!-- Games will be dynamically loaded here -->
+        </section>
+        
+        <!-- Game Categories (For Home Page) -->
+        <!-- Categories will be dynamically loaded here -->
+        
+        <!-- Game detail page content -->
         <section class="game-section">
             <h1>Nuts and Bolts Puzzle</h1>
-            <p class="game-intro">Test your problem-solving skills with this challenging mechanical puzzle game!</p>
+            <p class="game-intro">Ever gotten lost in a maze of planks and screws when trying to build an IKEA shelf? Well, Nuts and Bolts Puzzle is like the opposite of that! Instead of frantically trying to assemble stuff, you're gleefully taking everything apart.</p>
             
             <div class="game-container">
                 <iframe class="game-frame" src="https://cloud.onlinegames.io/games/2025/unity/nuts-and-bolts-puzzle/index-og.html" allowfullscreen></iframe>
             </div>
             
             <div class="game-description">
-                <h2>Game Description</h2>
-                <p>Nuts and Bolts Puzzle is an engaging brain teaser that challenges your logical thinking and spatial reasoning. In this addictive puzzle game, you'll need to manipulate various mechanical components to solve increasingly complex puzzles.</p>
-                
-                <p>The objective is simple: arrange the nuts, bolts, gears, and other mechanical parts to create a functioning machine. Each level presents a new challenge that requires careful planning and creative problem-solving.</p>
-                
-                <h2>How to Play</h2>
-                <p>Use your mouse or touchscreen to interact with the game elements. Drag and drop the mechanical parts into the correct positions to complete each puzzle. Some parts can be rotated or combined with others to create the right solution.</p>
+                <h2>游戏描述</h2>
+                <p>Ever gotten lost in a maze of planks and screws when trying to build an IKEA shelf? Well, Nuts and Bolts Puzzle is like the opposite of that! Instead of frantically trying to assemble stuff, you're gleefully taking everything apart and the best part is: no confusing instructions required. In this fun online game on OnlineGames.</p>
                 
                 <div class="game-features">
-                    <h2>Game Features</h2>
+                    <h2>网站特点</h2>
                     <ul>
-                        <li>Multiple challenging levels with increasing difficulty</li>
-                        <li>Intuitive drag-and-drop gameplay</li>
-                        <li>Beautiful graphics and satisfying mechanical animations</li>
-                        <li>Brain-teasing puzzles that test your problem-solving abilities</li>
-                        <li>Suitable for players of all ages</li>
+                        <li>多种游戏类型供选择</li>
+                        <li>完全免费，无需下载</li>
+                        <li>高质量HTML5游戏</li>
+                        <li>适合所有年龄段</li>
+                        <li>定期更新新游戏</li>
                     </ul>
                 </div>
                 
-                <a href="#" class="cta-button">Play Full Screen</a>
+                <div class="game-actions">
+                    <a href="#" class="cta-button">全屏游戏</a>
+                    <button class="favorite-btn" style="position: static; margin-left: 15px; width: auto; padding: 12px 24px; border-radius: 30px; background-color: #f5f5f7;">
+                        <span class="favorite-icon" style="margin-right: 5px;">♡</span> 添加到收藏
+                    </button>
+                </div>
+                
+                <!-- Rating and Comments Section -->
+                <div class="user-interaction">
+                    <div class="game-rating">
+                        <h2>为游戏评分</h2>
+                        <div class="rating-input">
+                            <div class="stars">
+                                <span class="star" data-value="1">☆</span>
+                                <span class="star" data-value="2">☆</span>
+                                <span class="star" data-value="3">☆</span>
+                                <span class="star" data-value="4">☆</span>
+                                <span class="star" data-value="5">☆</span>
+                            </div>
+                            <button class="rate-button">提交评分</button>
+                        </div>
+                    </div>
+                    
+                    <div class="comments-section">
+                        <h2>评论 (0)</h2>
+                        <div class="comment-form">
+                            <textarea placeholder="写下你的评论..."></textarea>
+                            <button>发表评论</button>
+                        </div>
+                        
+                        <div class="comments-list">
+                            <!-- Comments will be dynamically added here -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         
         <section class="related-games">
-            <h2>More Games You Might Like</h2>
+            <h2>你可能也喜欢</h2>
             <div class="games-grid">
-                <div class="game-card">
-                    <img src="/api/placeholder/250/150" alt="Puzzle Game">
-                    <div class="game-card-content">
-                        <h3>Brain Teasers</h3>
-                        <p>Challenge your mind with these tricky puzzles</p>
-                    </div>
-                </div>
-                <div class="game-card">
-                    <img src="/api/placeholder/250/150" alt="Adventure Game">
-                    <div class="game-card-content">
-                        <h3>Escape Adventure</h3>
-                        <p>Find your way out of mysterious rooms</p>
-                    </div>
-                </div>
-                <div class="game-card">
-                    <img src="/api/placeholder/250/150" alt="Strategy Game">
-                    <div class="game-card-content">
-                        <h3>Tower Defense</h3>
-                        <p>Build your defenses and stop the enemy</p>
-                    </div>
-                </div>
-                <div class="game-card">
-                    <img src="/api/placeholder/250/150" alt="Action Game">
-                    <div class="game-card-content">
-                        <h3>Space Shooter</h3>
-                        <p>Defend the galaxy from alien invaders</p>
-                    </div>
-                </div>
+                <!-- Related games will be dynamically loaded here -->
             </div>
         </section>
     </main>
@@ -404,35 +143,589 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <h3>4399onlineflashgames</h3>
+                    <h3>4399在线游戏</h3>
                     <ul>
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                        <li><a href="/faq">FAQ</a></li>
+                        <li><a href="about.html">关于我们</a></li>
+                        <li><a href="contact.html">联系我们</a></li>
+                        <li><a href="faq.html">常见问题</a></li>
+                        <li><a href="support.html">用户支持</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h3>Categories</h3>
+                    <h3>游戏分类</h3>
                     <ul>
-                        <li><a href="/categories/puzzle">Puzzle Games</a></li>
-                        <li><a href="/categories/action">Action Games</a></li>
-                        <li><a href="/categories/adventure">Adventure Games</a></li>
-                        <li><a href="/categories/strategy">Strategy Games</a></li>
+                        <li><a href="categories/puzzle.html">益智游戏</a></li>
+                        <li><a href="categories/action.html">动作游戏</a></li>
+                        <li><a href="categories/driving.html">赛车游戏</a></li>
+                        <li><a href="categories/strategy.html">策略游戏</a></li>
+                        <li><a href="categories/shooting.html">射击游戏</a></li>
+                        <li><a href="categories/flying.html">飞行游戏</a></li>
+                        <li><a href="categories/sports.html">体育游戏</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h3>Legal</h3>
+                    <h3>用户中心</h3>
                     <ul>
-                        <li><a href="/privacy">Privacy Policy</a></li>
-                        <li><a href="/terms">Terms of Service</a></li>
-                        <li><a href="/cookies">Cookie Policy</a></li>
+                        <li><a href="login.html">登录</a></li>
+                        <li><a href="register.html">注册</a></li>
+                        <li><a href="profile.html">个人资料</a></li>
+                        <li><a href="favorites.html">我的收藏</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>法律信息</h3>
+                    <ul>
+                        <li><a href="privacy.html">隐私政策</a></li>
+                        <li><a href="terms.html">服务条款</a></li>
+                        <li><a href="cookies.html">Cookie政策</a></li>
                     </ul>
                 </div>
             </div>
             <div class="copyright">
-                &copy; 2025 4399onlineflashgames.com. All rights reserved.
+                &copy; 2025 4399在线游戏. 保留所有权利。
             </div>
         </div>
     </footer>
+
+    <!-- JavaScript for user interaction features -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load games data from JSON file
+            fetch('games.json')
+                .then(response => response.json())
+                .then(games => {
+                    initializeWebsite(games);
+                })
+                .catch(error => {
+                    console.error('Error loading games data:', error);
+                });
+            
+            function initializeWebsite(games) {
+                // Initialize featured games slider
+                initializeFeaturedGames(games);
+                
+                // Initialize game categories
+                initializeGameCategories(games);
+                
+                // Load a default game
+                loadDefaultGame(games);
+                
+                // Set up other UI components
+                setupUserInteractions();
+            }
+            
+            function loadDefaultGame(games) {
+                // Get the first game (or a featured game) to display by default
+                const defaultGame = games[0]; // 选择第一个游戏作为默认显示
+                
+                if (defaultGame) {
+                    // Update iframe source
+                    const gameFrame = document.querySelector('.game-frame');
+                    if (gameFrame) {
+                        gameFrame.src = defaultGame.embed;
+                    }
+                    
+                    // Update game title and description
+                    const gameTitle = document.querySelector('.game-section h1');
+                    const gameIntro = document.querySelector('.game-intro');
+                    const gameDescription = document.querySelector('.game-description p');
+                    
+                    if (gameTitle) gameTitle.textContent = defaultGame.title;
+                    if (gameIntro) gameIntro.textContent = defaultGame.description.substring(0, 150) + 
+                        (defaultGame.description.length > 150 ? '...' : '');
+                    if (gameDescription) gameDescription.textContent = defaultGame.description;
+                    
+                    // Update related games
+                    updateRelatedGames(defaultGame, games);
+                }
+            }
+            
+            function initializeFeaturedGames(games) {
+                const featuredSlider = document.querySelector('.featured-slider');
+                if (featuredSlider) {
+                    // Get 3 highest rated games for the slider
+                    const featuredGames = [...games]
+                        .sort((a, b) => b.rating - a.rating)
+                        .slice(0, 3);
+                    
+                    // Clear any existing content
+                    featuredSlider.innerHTML = '';
+                    
+                    // Add featured games to the slider
+                    featuredGames.forEach((game, index) => {
+                        const gameSlide = document.createElement('div');
+                        gameSlide.className = 'game-slide';
+                        if (index === 0) gameSlide.classList.add('active');
+                        
+                        gameSlide.innerHTML = `
+                            <img src="${game.image}" alt="${game.title}">
+                            <div class="game-info">
+                                <h2>${game.title}</h2>
+                                <p>${game.description.substring(0, 150)}${game.description.length > 150 ? '...' : ''}</p>
+                                <a href="#" class="play-button" data-id="${game.id}">立即游戏</a>
+                            </div>
+                        `;
+                        featuredSlider.appendChild(gameSlide);
+                    });
+                    
+                    // Add slider navigation dots
+                    const sliderNav = document.createElement('div');
+                    sliderNav.className = 'slider-nav';
+                    
+                    for (let i = 0; i < featuredGames.length; i++) {
+                        const dot = document.createElement('div');
+                        dot.className = 'slider-dot';
+                        if (i === 0) dot.classList.add('active');
+                        dot.setAttribute('data-index', i);
+                        sliderNav.appendChild(dot);
+                    }
+                    
+                    featuredSlider.appendChild(sliderNav);
+                    
+                    // Add click events to dots
+                    const dots = sliderNav.querySelectorAll('.slider-dot');
+                    const slides = featuredSlider.querySelectorAll('.game-slide');
+                    
+                    dots.forEach(dot => {
+                        dot.addEventListener('click', function() {
+                            const index = parseInt(this.getAttribute('data-index'));
+                            
+                            // Update active classes
+                            dots.forEach(d => d.classList.remove('active'));
+                            slides.forEach(s => s.classList.remove('active'));
+                            
+                            this.classList.add('active');
+                            slides[index].classList.add('active');
+                        });
+                    });
+                    
+                    // Add click events to play buttons
+                    const playButtons = featuredSlider.querySelectorAll('.play-button');
+                    playButtons.forEach(button => {
+                        button.addEventListener('click', function(e) {
+                            e.preventDefault();
+                            const gameId = this.getAttribute('data-id');
+                            const selectedGame = games.find(g => g.id === gameId);
+                            
+                            if (selectedGame) {
+                                // Update game frame
+                                const gameFrame = document.querySelector('.game-frame');
+                                if (gameFrame) {
+                                    gameFrame.src = selectedGame.embed;
+                                }
+                                
+                                // Update game details
+                                const gameTitle = document.querySelector('.game-section h1');
+                                const gameIntro = document.querySelector('.game-intro');
+                                const gameDescription = document.querySelector('.game-description p');
+                                
+                                if (gameTitle) gameTitle.textContent = selectedGame.title;
+                                if (gameIntro) gameIntro.textContent = selectedGame.description.substring(0, 150) + 
+                                    (selectedGame.description.length > 150 ? '...' : '');
+                                if (gameDescription) gameDescription.textContent = selectedGame.description;
+                                
+                                // Update related games
+                                updateRelatedGames(selectedGame, games);
+                                
+                                // Scroll to game section
+                                document.querySelector('.game-section').scrollIntoView({ behavior: 'smooth' });
+                            }
+                        });
+                    });
+                    
+                    // Auto slide
+                    let currentSlide = 0;
+                    setInterval(() => {
+                        currentSlide = (currentSlide + 1) % featuredGames.length;
+                        
+                        // Update active classes
+                        dots.forEach(d => d.classList.remove('active'));
+                        slides.forEach(s => s.classList.remove('active'));
+                        
+                        dots[currentSlide].classList.add('active');
+                        slides[currentSlide].classList.add('active');
+                    }, 5000);
+                }
+            }
+            
+            function initializeGameCategories(games) {
+                // Get unique categories
+                const categories = [...new Set(games.map(game => game.category))];
+                
+                // Create game category sections
+                const mainContainer = document.querySelector('main.container');
+                const gameSection = document.querySelector('.game-section');
+                const relatedGames = document.querySelector('.related-games');
+                
+                // Remove existing game category sections
+                const existingCategories = document.querySelectorAll('.game-category');
+                existingCategories.forEach(section => section.remove());
+                
+                // Create new category sections
+                categories.forEach(category => {
+                    // Get games in this category
+                    const categoryGames = games.filter(game => game.category === category);
+                    if (categoryGames.length === 0) return;
+                    
+                    // Create category section
+                    const categorySection = document.createElement('section');
+                    categorySection.className = 'game-category';
+                    
+                    // Format category name for display (capitalize first letter)
+                    const displayCategory = category.charAt(0).toUpperCase() + category.slice(1);
+                    
+                    categorySection.innerHTML = `
+                        <div class="category-header">
+                            <h2>${displayCategory} 游戏</h2>
+                            <a href="categories/${category}.html" class="view-all">查看全部</a>
+                        </div>
+                        <div class="games-grid">
+                            ${categoryGames.slice(0, 4).map(game => createGameCard(game)).join('')}
+                        </div>
+                    `;
+                    
+                    // Insert before related games section or at the end if not found
+                    if (relatedGames) {
+                        mainContainer.insertBefore(categorySection, relatedGames);
+                    } else if (gameSection) {
+                        mainContainer.insertBefore(categorySection, gameSection);
+                    } else {
+                        mainContainer.appendChild(categorySection);
+                    }
+                });
+                
+                // Update current game iframe and details if on a game page
+                const gameFrame = document.querySelector('.game-frame');
+                if (gameFrame) {
+                    const urlPath = window.location.pathname;
+                    const gameId = urlPath.split('/').pop().replace('.html', '');
+                    const currentGame = games.find(g => g.id === gameId) || games[0];
+                    
+                    if (currentGame) {
+                        // Update iframe source
+                        gameFrame.src = currentGame.embed;
+                        
+                        // Update game title and description
+                        const gameTitle = document.querySelector('.game-section h1');
+                        const gameIntro = document.querySelector('.game-intro');
+                        
+                        if (gameTitle) gameTitle.textContent = currentGame.title;
+                        if (gameIntro) gameIntro.textContent = currentGame.description.substring(0, 150) + 
+                            (currentGame.description.length > 150 ? '...' : '');
+                        
+                        // Update related games
+                        updateRelatedGames(currentGame, games);
+                    }
+                }
+            }
+            
+            function createGameCard(game) {
+                // Create star rating HTML
+                const fullStars = Math.floor(game.rating);
+                const hasHalfStar = game.rating % 1 >= 0.5;
+                let starsHTML = '';
+                
+                for (let i = 1; i <= 5; i++) {
+                    if (i <= fullStars) {
+                        starsHTML += '<span class="star">★</span>';
+                    } else if (i === fullStars + 1 && hasHalfStar) {
+                        starsHTML += '<span class="star">★</span>';
+                    } else {
+                        starsHTML += '<span class="star">☆</span>';
+                    }
+                }
+                
+                return `
+                    <div class="game-card" data-id="${game.id}">
+                        <img src="${game.image}" alt="${game.title}">
+                        <button class="favorite-btn" data-id="${game.id}">
+                            <span class="favorite-icon">♡</span>
+                        </button>
+                        <div class="game-card-content">
+                            <h3>${game.title}</h3>
+                            <div class="rating">
+                                <div class="stars">
+                                    ${starsHTML}
+                                </div>
+                                <span class="rating-count">(${game.ratingCount})</span>
+                            </div>
+                            <p>${game.description.substring(0, 60)}${game.description.length > 60 ? '...' : ''}</p>
+                            <a href="#" class="play-link" data-id="${game.id}">开始</a>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            function updateRelatedGames(currentGame, allGames) {
+                const relatedGamesSection = document.querySelector('.related-games');
+                if (!relatedGamesSection) return;
+                
+                // Find games in the same category but not the current game
+                const relatedGames = allGames
+                    .filter(game => game.category === currentGame.category && game.id !== currentGame.id)
+                    .slice(0, 4);
+                
+                // If not enough games in the same category, add some from other categories
+                if (relatedGames.length < 4) {
+                    const moreGames = allGames
+                        .filter(game => game.id !== currentGame.id && !relatedGames.includes(game))
+                        .sort(() => 0.5 - Math.random()) // Shuffle
+                        .slice(0, 4 - relatedGames.length);
+                    
+                    relatedGames.push(...moreGames);
+                }
+                
+                // Update the related games grid
+                const gamesGrid = relatedGamesSection.querySelector('.games-grid');
+                if (gamesGrid) {
+                    gamesGrid.innerHTML = relatedGames.map(game => createGameCard(game)).join('');
+                }
+            }
+            
+            function setupUserInteractions() {
+                // Favorite buttons functionality
+                document.addEventListener('click', function(e) {
+                    const favoriteBtn = e.target.closest('.favorite-btn');
+                    if (favoriteBtn) {
+                        e.stopPropagation();
+                        favoriteBtn.classList.toggle('active');
+                        const icon = favoriteBtn.querySelector('.favorite-icon');
+                        const gameId = favoriteBtn.getAttribute('data-id');
+                        
+                        if (favoriteBtn.classList.contains('active')) {
+                            icon.textContent = '♥';
+                            // Here you would typically make an API call to save this game to favorites
+                            console.log('Added to favorites:', gameId);
+                        } else {
+                            icon.textContent = '♡';
+                            // Here you would typically make an API call to remove this game from favorites
+                            console.log('Removed from favorites:', gameId);
+                        }
+                    }
+                });
+                
+                // Make game cards clickable
+                document.addEventListener('click', function(e) {
+                    const gameCard = e.target.closest('.game-card');
+                    if (gameCard && !e.target.closest('.favorite-btn') && !e.target.closest('.play-link')) {
+                        const gameId = gameCard.getAttribute('data-id');
+                        
+                        // Find the game in our data
+                        const selectedGame = games.find(g => g.id === gameId);
+                        if (selectedGame) {
+                            loadGameIntoFrame(selectedGame);
+                        }
+                    }
+                    
+                    // Handle play-link clicks
+                    const playLink = e.target.closest('.play-link');
+                    if (playLink) {
+                        e.preventDefault();
+                        const gameId = playLink.getAttribute('data-id');
+                        
+                        // Find the game in our data
+                        const selectedGame = games.find(g => g.id === gameId);
+                        if (selectedGame) {
+                            loadGameIntoFrame(selectedGame);
+                        }
+                    }
+                });
+                
+                function loadGameIntoFrame(game) {
+                    // Update game frame
+                    const gameFrame = document.querySelector('.game-frame');
+                    if (gameFrame) {
+                        gameFrame.src = game.embed;
+                    }
+                    
+                    // Update game details
+                    const gameTitle = document.querySelector('.game-section h1');
+                    const gameIntro = document.querySelector('.game-intro');
+                    const gameDescription = document.querySelector('.game-description p');
+                    
+                    if (gameTitle) gameTitle.textContent = game.title;
+                    if (gameIntro) gameIntro.textContent = game.description.substring(0, 150) + 
+                        (game.description.length > 150 ? '...' : '');
+                    if (gameDescription) gameDescription.textContent = game.description;
+                    
+                    // Update related games
+                    updateRelatedGames(game, games);
+                    
+                    // Scroll to game section
+                    document.querySelector('.game-section').scrollIntoView({ behavior: 'smooth' });
+                }
+                
+                // Rating functionality
+                setupRatingSystem();
+                
+                // Comment form functionality
+                setupCommentSystem();
+                
+                // Search functionality
+                setupSearch();
+            }
+            
+            function setupRatingSystem() {
+                const ratingStars = document.querySelectorAll('.rating-input .star');
+                ratingStars.forEach(star => {
+                    star.addEventListener('mouseover', function() {
+                        const value = this.getAttribute('data-value');
+                        highlightStars(value);
+                    });
+                    
+                    star.addEventListener('mouseout', function() {
+                        resetStars();
+                    });
+                    
+                    star.addEventListener('click', function() {
+                        const value = this.getAttribute('data-value');
+                        selectStars(value);
+                        // Here you would typically make an API call to save this rating
+                        console.log('Rated: ' + value + ' stars');
+                    });
+                });
+                
+                function highlightStars(count) {
+                    ratingStars.forEach(star => {
+                        const value = star.getAttribute('data-value');
+                        star.textContent = value <= count ? '★' : '☆';
+                    });
+                }
+                
+                function resetStars() {
+                    const selectedRating = document.querySelector('.rating-input')?.getAttribute('data-selected');
+                    if (selectedRating) {
+                        highlightStars(selectedRating);
+                    } else {
+                        ratingStars.forEach(star => {
+                            star.textContent = '☆';
+                        });
+                    }
+                }
+                
+                function selectStars(count) {
+                    const ratingInput = document.querySelector('.rating-input');
+                    if (ratingInput) {
+                        ratingInput.setAttribute('data-selected', count);
+                        highlightStars(count);
+                    }
+                }
+            }
+            
+            function setupCommentSystem() {
+                const commentForm = document.querySelector('.comment-form');
+                if (commentForm) {
+                    commentForm.addEventListener('submit', function(e) {
+                        e.preventDefault();
+                        const commentText = this.querySelector('textarea').value;
+                        if (commentText.trim() !== '') {
+                            addComment(commentText);
+                            this.querySelector('textarea').value = '';
+                        }
+                    });
+                    
+                    commentForm.querySelector('button')?.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const commentText = commentForm.querySelector('textarea').value;
+                        if (commentText.trim() !== '') {
+                            addComment(commentText);
+                            commentForm.querySelector('textarea').value = '';
+                        }
+                    });
+                }
+                
+                function addComment(text) {
+                    const commentsList = document.querySelector('.comments-list');
+                    if (!commentsList) return;
+                    
+                    const newComment = document.createElement('div');
+                    newComment.className = 'comment';
+                    
+                    const now = new Date();
+                    const commentHeader = document.createElement('div');
+                    commentHeader.className = 'comment-header';
+                    commentHeader.innerHTML = `
+                        <span class="comment-user">你</span>
+                        <span class="comment-date">刚刚</span>
+                    `;
+                    
+                    const commentBody = document.createElement('div');
+                    commentBody.className = 'comment-body';
+                    commentBody.textContent = text;
+                    
+                    newComment.appendChild(commentHeader);
+                    newComment.appendChild(commentBody);
+                    
+                    commentsList.insertBefore(newComment, commentsList.firstChild);
+                    
+                    // Here you would typically make an API call to save this comment
+                    console.log('Comment added: ' + text);
+                    
+                    // Update comment count
+                    const commentsTitle = document.querySelector('.comments-section h2');
+                    if (commentsTitle) {
+                        const countMatch = commentsTitle.textContent.match(/\d+/);
+                        if (countMatch) {
+                            const newCount = parseInt(countMatch[0]) + 1;
+                            commentsTitle.textContent = commentsTitle.textContent.replace(/\d+/, newCount);
+                        }
+                    }
+                }
+            }
+            
+            function setupSearch() {
+                const searchInput = document.querySelector('.search-bar input');
+                const searchButton = document.querySelector('.search-bar button');
+                
+                if (searchInput && searchButton) {
+                    searchButton.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const searchTerm = searchInput.value.trim().toLowerCase();
+                        if (searchTerm) {
+                            window.location.href = `/search?q=${encodeURIComponent(searchTerm)}`;
+                        }
+                    });
+                    
+                    searchInput.addEventListener('keypress', function(e) {
+                        if (e.key === 'Enter') {
+                            const searchTerm = searchInput.value.trim().toLowerCase();
+                            if (searchTerm) {
+                                window.location.href = `/search?q=${encodeURIComponent(searchTerm)}`;
+                            }
+                        }
+                    });
+                }
+            }
+            
+            // Full screen functionality
+            const fullScreenButton = document.querySelector('.cta-button');
+            if (fullScreenButton) {
+                fullScreenButton.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const gameFrame = document.querySelector('.game-frame');
+                    if (gameFrame) {
+                        if (gameFrame.requestFullscreen) {
+                            gameFrame.requestFullscreen();
+                        } else if (gameFrame.mozRequestFullScreen) {
+                            gameFrame.mozRequestFullScreen();
+                        } else if (gameFrame.webkitRequestFullscreen) {
+                            gameFrame.webkitRequestFullscreen();
+                        } else if (gameFrame.msRequestFullscreen) {
+                            gameFrame.msRequestFullscreen();
+                        }
+                    }
+                });
+            }
+            
+            // Mobile menu functionality
+            const userButton = document.querySelector('.user-button');
+            if (userButton && window.innerWidth <= 768) {
+                userButton.addEventListener('click', function() {
+                    const dropdown = this.nextElementSibling;
+                    dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+                });
+            }
+        });
+    </script>
 </body>
 </html>
